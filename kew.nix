@@ -2,7 +2,8 @@
 {
   # install package
   environment.systemPackages = with pkgs; [
-    inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.project.url = "codeburg:ravachol/kew";
     # ... maybe other stuff
   ];
 }
+
