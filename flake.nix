@@ -23,6 +23,7 @@
 				specialArgs = {inherit inputs;};
 				modules = [
 				./configuration.nix
+				./kew
 				];
 			};
 		};
