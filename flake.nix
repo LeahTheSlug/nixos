@@ -5,10 +5,7 @@
 	inputs = {
 		nixpkgs.url= "github:nixos/nixpkgs/nixos-unstable";
 		
-		#kew = {
-      		#url = "codeburg:ravachol/kew";
-      		#inputs.nixpkgs.follows = "nixpkgs";
-    		#};
+		kew.url = "codeburg:ravachol/kew"
 
 		};
 
